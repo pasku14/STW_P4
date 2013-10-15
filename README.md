@@ -1,4 +1,4 @@
-Práctica 3: Añadir Template Haml a Rock, Paper, Scissors.
+Práctica 4: Añada Hojas de Estilo a Piedra Papel Tijeras.
 ================================
 
 <center>
@@ -8,7 +8,7 @@ Práctica 3: Añadir Template Haml a Rock, Paper, Scissors.
 
 ## DESCRIPCION ##
 
-El objetivo de esta práctica es crear el juego de Piedra, Papel y Tijeras utilizando Ruby y Haml.
+El objetivo de esta práctica es crear el juego de Piedra, Papel y Tijeras utilizando Ruby y Haml y Hojas de Estilo.
 
  
 ## AUTOR ##
