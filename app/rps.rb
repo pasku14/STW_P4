@@ -1,8 +1,9 @@
 require 'rack/request'
 require 'rack/response'
-require 'rack'
 require 'haml'
 require 'thin'
+require 'rack'
+require 'sinatra'
   
 module PPT
 	class App

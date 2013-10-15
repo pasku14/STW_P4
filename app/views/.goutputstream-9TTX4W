@@ -14,8 +14,9 @@
     .container-fluid
       .row-fluid
         .span2
-          %h2 Elige Jugador!
-          %br
+          -if (do_it == 'Elige jugador')
+            %h2 Elige Jugador!
+            %br
           - throws.map do |x|
             %a{:href => "?choice=#{x}"} 
               - if ("#{x}" == 'Piedra')
@@ -31,7 +32,7 @@
                 %br
                 %br
         .span10
-          %h1
+          %h3
             %center Eleccion del Usuario: #{player_throw}
           %br
           %h3
