@@ -30,9 +30,8 @@
                 %button.btn.btn-primary{type: "button"} Tijeras
                 %br
                 %br
-                %br
           %a{:href => "/"}
-            %button.btn.btn-warning{type: "button"} REINICIAR
+            %button.btn.btn-warning{type: "button"} Tijeras
         .span10
           %br
           %br

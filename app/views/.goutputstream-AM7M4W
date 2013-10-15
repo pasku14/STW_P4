@@ -30,24 +30,20 @@
                 %button.btn.btn-primary{type: "button"} Tijeras
                 %br
                 %br
-                %br
-          %a{:href => "/"}
-            %button.btn.btn-warning{type: "button"} REINICIAR
         .span10
           %br
           %br
           %br
           %br
-          %h1
+          %p{align: "center"}
             %center
-              %font{color: "#0080FF", face: "Arial"} Eleccion del Usuario: #{player_throw}
+              %font{color: "#330066", face: "Arial"} Eleccion del Usuario: #{player_throw}
           %br
           %h2
             %center VS
           %br
           %h2
-            %center
-              %font{color: "#FF4000", face: "Arial"} Eleccion del PC: #{computer_throw} 
+            %center Eleccion del PC: #{computer_throw} 
           %br
     
           %h2
@@ -57,15 +53,12 @@
               %center Empieza a jugar!!
           -elsif (answer == 'jugador gana')
             %h2
-              %center
-                %font{color: "#00FF00", face: "Arial"} Ganaste!
+              %center Ganaste!
           -elsif (answer == 'jugador pierde')
             %h2
-              %center
-                %font{color: "#FF0000", face: "Arial"} Perdiste!!!
+              %center Perdiste!!!
           -elsif (answer == 'empate')
             %h2
-              %center
-                %font{color: "#0000FF", face: "Arial"} Empate!
+              %center Empate!
  
     %script{:src => "/js/bootstrap.js"}
