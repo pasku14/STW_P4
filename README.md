@@ -4,6 +4,7 @@ Práctica 4: Añada Hojas de Estilo a Piedra Papel Tijeras.
 <center>
 ![](http://neetecno.com/wp-content/uploads/2012/01/ruby-logo4.jpg)
 ![](https://liveramp.com/files/2012/12/haml.png)
+![](http://www.fjaguero.com/wp-content/uploads/2012/06/twitterBootstrap.jpg)
 </center>
 
 ## DESCRIPCION ##
